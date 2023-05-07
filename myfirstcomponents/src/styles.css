@@ -1,0 +1,184 @@
+.body{
+    display:flex;
+    flex-direction: column;
+   align-content: center;
+ 
+}
+#colorBtn{
+    padding: 5px 10px;
+    color: #060202;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+  }
+   .colors-container{
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+gap:20px;
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+align-content: center;
+  }
+  .colors-display{
+    margin-top: 20px;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 18px;
+  }
+
+  
+  /* Counter Component */
+  .counter-container {
+    text-align: center;
+   
+  }
+  
+  .counter {
+    font-size: 24px;
+    margin-bottom: 10px;
+    
+  }
+  
+  .counter-buttons button {
+    margin: 0 5px;
+    padding: 5px 10px;
+    font-size: 18px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    
+  }
+  
+
+
+  /* todo */
+  .todo-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    gap:30px;
+    margin-bottom: 20px;
+  }
+  
+  .todo-form {
+    display: flex;
+    margin-bottom: 10px;
+  }
+  
+  .todo-form input {
+    flex-grow: 1;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .todo-form button {
+    padding: 5px 10px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .error {
+    color: red;
+    margin-top: 5px;
+  }
+  
+  .todo-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .todo-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+  }
+  
+  .todo-item button {
+    margin-left: 10px;
+    padding: 3px 6px;
+    background-color: #ff4f4f;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  /* SignUpForm Component */    
+  .signup-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .form-title {
+    margin-bottom: 10px;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group {
+    margin-bottom: 10px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .form-input {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .error {
+    color: red;
+    margin-top: 5px;
+  }
+  
+  .submit-button {
+    padding: 5px 10px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .submitted-data-title {
+    margin-top: 20px;
+  }
+  
+  .no-data {
+    margin-top: 10px;
+  }
+  
+  .submitted-data-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .submitted-data-item {
+    margin-bottom: 5px;
+  }
+ 

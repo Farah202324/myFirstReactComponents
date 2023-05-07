@@ -1,0 +1,19 @@
+{
+  "name": "myfirstreactcomponents",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Farah202324/myFirstReactComponents.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Farah202324/myFirstReactComponents/issues"
+  },
+  "homepage": "https://github.com/Farah202324/myFirstReactComponents#readme"
+}
